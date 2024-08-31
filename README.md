@@ -1,3 +1,7 @@
+**Veja o projeto ao vivo:**
+
+[Editor de Fotos Responsivo](https://ninja1375.github.io/Editor-de-Fotos-Responsivo/)
+
 Este projeto consiste em um Editor de Fotos Responsivo 
 
 ## Controles Gerais: ##
