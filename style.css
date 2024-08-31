@@ -1,0 +1,125 @@
+/* Estilos gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.editor-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin: 20px;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Canvas */
+canvas {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Controles */
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #6c757d;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls button:hover {
+  background-color: #008000;
+}
+
+/* Botões de Filtros */
+.filter-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #6c757d;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-buttons button:hover {
+  background-color: #007bff;
+}
+
+/* Slider */
+.filter-control {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-control input[type="range"] {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .editor-container {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .controls,
+  .filter-buttons {
+    flex-wrap: wrap;
+  }
+
+  .filter-control input[type="range"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .controls button,
+  .filter-buttons button {
+    margin: 2px;
+  }
+}
