@@ -44,10 +44,12 @@ Funcionalidade: Ajusta a saturação da imagem (de 0% a 200%).
 
 Funcionalidade: Aplica um filtro de sépia à imagem, dando um efeito de tonalidade envelhecida (de 0% a 200%).
 
-Botão: Desfoque
+**Botão: Desfoque**
 
-Nome no HTML: blurFuncionalidade: Aplica um efeito de desfoque na imagem (de 0px a 10px).
+Funcionalidade: Aplica um efeito de desfoque na imagem (de 0px a 10px).
 
-Botão: Negativo
+**Botão: Negativo**
 
-Nome no HTML: negativeFuncionalidade: Inverte as cores da imagem, criando um efeito negativo (de 0% a 100%).
+Funcionalidade: Inverte as cores da imagem, criando um efeito negativo (de 0% a 100%).
+
+Este projeto usa somente as linguagens HTML, CSS e JavaScript.
