@@ -56,8 +56,6 @@ Funcionalidade: Aplica um efeito de desfoque na imagem (de 0px a 10px).
 
 Funcionalidade: Inverte as cores da imagem, criando um efeito negativo (de 0% a 100%).
 
-Este projeto usa somente as linguagens HTML, CSS e JavaScript.
-
 ## Linguagens Utilizadas ##
 
 
